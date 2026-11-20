@@ -1,48 +1,64 @@
-# Hi, I'm Ayberk Doruk
+<div align="center">
 
-**Computer Engineering student · Interested in technology & artificial intelligence**
+# Hi, I'm Ayberk Doruk 👋
 
-I'm at the beginning of my programming journey. I'm curious about how technology works and how AI can be used to solve problems. As I progress through my degree, I want to build solid foundations and turn what I learn into small, well-documented projects.
+**Computer Engineering student @ Zonguldak Bülent Ecevit University**
+<br>
+Robotics perception · LiDAR · Computer vision · C++
 
-### My next steps
+</div>
 
-| Focus | What I plan to work on |
-| --- | --- |
-| Programming foundations | Learn the basics of C and C# alongside my studies. |
-| Problem solving | Practice breaking problems into smaller steps and understanding my solutions. |
-| Git & GitHub | Learn to keep my work organized with clear commits and useful READMEs. |
-| Technology & AI | Explore the field while developing the programming knowledge to understand it better. |
+---
 
-### What I want to build here
+I build perception software for autonomous vehicles — turning raw sensor data into decisions
+a vehicle can act on. Right now I'm working with a **RoboSense Helios 32 LiDAR on ROS 2**,
+detecting obstacles and objects in real time, and with **OpenCV** for camera-based lane detection.
+Next step: fusing LiDAR with a ZED stereo camera.
 
-A record of my progress: exercises, learning notes, and small projects with clear explanations of what they do and what I learned.
+### 🔭 Projects
 
-My aim is to work consistently, understand the code I write, and improve one project at a time.
+| Project | What it does | Stack |
+|---|---|---|
+| **[lidar_ws](https://github.com/ayberkdoruk/lidar_ws)** | Real-time LiDAR obstacle & object detection: STOP / CAUTION / SAFE decisions, ground segmentation, clustering, 3D bounding boxes, tracking, and a live tuning panel | C++ · ROS 2 Jazzy · PCL · Qt |
+| **[lane-detection-cpp](https://github.com/ayberkdoruk/lane-detection-cpp)** | Lane detection on images and video: classic Hough and polynomial (bird's-eye) detectors, temporal tracking, lane-center offset, dashed-lane support | C++20 · OpenCV · CMake |
+
+### 🛠️ Tech
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![PCL](https://img.shields.io/badge/PCL-orange?style=flat-square)
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+### 🌱 Currently
+
+- Moving the LiDAR system from the desk onto a vehicle
+- Learning sensor fusion (LiDAR + stereo camera) and camera calibration
+- Improving my C++ and writing well-documented, tested code
 
 ---
 
 <details>
-<summary><strong>Türkçe — Hakkımda ve öğrenme planım</strong></summary>
+<summary><strong>🇹🇷 Türkçe</strong></summary>
 
 ### Merhaba, ben Ayberk Doruk
 
-**Bilgisayar Mühendisliği öğrencisi · Teknoloji ve yapay zekâya ilgi duyuyorum**
+**Zonguldak Bülent Ecevit Üniversitesi, Bilgisayar Mühendisliği öğrencisi**
 
-Programlama yolculuğumun başındayım. Teknolojinin nasıl çalıştığını ve yapay zekânın problemleri çözmek için nasıl kullanılabileceğini merak ediyorum. Eğitimim boyunca sağlam bir temel oluşturmak ve öğrendiklerimi küçük, iyi belgelenmiş projelere dönüştürmek istiyorum.
+Otonom araçlar için algılama yazılımı geliştiriyorum: sensörden gelen ham veriyi aracın
+karar verebileceği bilgiye dönüştürmek. Şu an **ROS 2** üzerinde **RoboSense Helios 32 LiDAR**
+ile gerçek zamanlı engel ve nesne algılama, **OpenCV** ile kamera tabanlı şerit algılama üzerinde
+çalışıyorum. Sıradaki adım: LiDAR'ı ZED stereo kamerayla birleştirmek.
 
-### Sıradaki adımlarım
+| Proje | Ne yapar |
+|---|---|
+| **[lidar_ws](https://github.com/ayberkdoruk/lidar_ws)** | LiDAR ile gerçek zamanlı DUR / DİKKAT / GÜVENLİ kararı, zemin ayırma, kümeleme, 3B kutular, nesne takibi ve canlı ayar paneli |
+| **[lane-detection-cpp](https://github.com/ayberkdoruk/lane-detection-cpp)** | Görüntü ve videoda şerit algılama: Hough ve kuşbakışı polinom yöntemleri, takip, şerit merkezinden sapma, kesikli şerit desteği |
 
-| Odak | Üzerinde çalışmayı planladıklarım |
-| --- | --- |
-| Programlama temelleri | Eğitimimle birlikte C ve C# dillerinin temellerini öğrenmek. |
-| Problem çözme | Problemleri küçük adımlara ayırmak ve geliştirdiğim çözümleri anlamak. |
-| Git ve GitHub | Çalışmalarımı anlaşılır commit'ler ve yararlı README'lerle düzenli tutmayı öğrenmek. |
-| Teknoloji ve yapay zekâ | Alanı keşfederken daha iyi anlamamı sağlayacak programlama bilgisini geliştirmek. |
-
-### Burada oluşturmak istediğim şey
-
-Gelişimimi gösteren bir birikim: alıştırmalar, öğrenme notları ve ne yaptığını, bana ne öğrettiğini açıkladığım küçük projeler.
-
-Amacım düzenli çalışmak, yazdığım kodu anlamak ve her projede biraz daha ilerlemek.
+**Şu sıralar:** LiDAR sistemini masadan araca taşıyorum, sensör füzyonu ve kamera kalibrasyonu öğreniyorum.
 
 </details>
