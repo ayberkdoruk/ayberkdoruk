@@ -15,12 +15,6 @@ a vehicle can act on. Right now I'm working with a **RoboSense Helios 32 LiDAR o
 detecting obstacles and objects in real time, and with **OpenCV** for camera-based lane detection.
 Next step: fusing LiDAR with a ZED stereo camera.
 
-### 🔭 Projects
-
-| Project | What it does | Stack |
-|---|---|---|
-| **[lidar_ws](https://github.com/ayberkdoruk/lidar_ws)** | Real-time LiDAR obstacle & object detection: STOP / CAUTION / SAFE decisions, ground segmentation, clustering, 3D bounding boxes, tracking, and a live tuning panel | C++ · ROS 2 Jazzy · PCL · Qt |
-| **[lane-detection-cpp](https://github.com/ayberkdoruk/lane-detection-cpp)** | Lane detection on images and video: classic Hough and polynomial (bird's-eye) detectors, temporal tracking, lane-center offset, dashed-lane support | C++20 · OpenCV · CMake |
 
 ### 🛠️ Tech
 
